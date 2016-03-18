@@ -13,6 +13,18 @@ module.exports = {
   schema: true,
   
   attributes: {
+    name: {
+      type:'string',
+      required: 'true'
+    },
+    dateBirth: {
+      type: 'string',
+      required: 'true'  
+    },
+    state: {
+      type: 'string',
+      required: 'true'
+    },
     email: {
       type: 'email',
       required: 'true',
